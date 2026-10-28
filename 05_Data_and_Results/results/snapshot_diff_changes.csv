@@ -1,0 +1,11 @@
+kind,accession_id,field,old,new
+dac_changed,EGAC50000000743,is_released,False,True
+dac_changed,EGAC50000001089,is_released,False,True
+dac_changed,EGAC50000001164,contact_domains,recerca.clinic.cat,inserm.fr; recerca.clinic.cat
+dac_added,EGAC50000001204,title,,Data Access Committee for PNG Data
+dataset_policy_changed,EGAD00001016592,policy_accession_id,EGAP00001000210,EGAP00001000001
+dataset_moved_to_another_dac,EGAD00001016592,governing_dac,EGAC00001000205,EGAC00001000000
+dataset_policy_changed,EGAD00001016593,policy_accession_id,EGAP00001000210,EGAP00001000001
+dataset_moved_to_another_dac,EGAD00001016593,governing_dac,EGAC00001000205,EGAC00001000000
+dataset_policy_changed,EGAD50000003085,policy_accession_id,EGAP50000000910,EGAP50000000933
+dataset_moved_to_another_dac,EGAD50000003085,governing_dac,EGAC50000000948,EGAC50000000951

@@ -1,0 +1,46 @@
+{
+  "old_snapshot": {
+    "date": "2026-10-07",
+    "path": "../05_Data_and_Results/raw_snapshots_PRIVATE/raw_ega_snapshot"
+  },
+  "new_snapshot": {
+    "date": "2026-10-08",
+    "path": "../05_Data_and_Results/raw_snapshots_PRIVATE/raw_ega_snapshot_2"
+  },
+  "dacs": {
+    "old": 4901,
+    "new": 4902,
+    "added": 1,
+    "removed": 0,
+    "changed": {
+      "contacts": 1,
+      "deprecated": 0,
+      "released": 2,
+      "title": 0,
+      "url": 0
+    },
+    "new_dac_contact_profile": {
+      "single_individual": 1
+    }
+  },
+  "policies": {
+    "old": 4880,
+    "new": 4881,
+    "added": 1,
+    "removed": 0,
+    "moved_to_another_dac": 0
+  },
+  "datasets": {
+    "old": 21764,
+    "new": 21770,
+    "added": 6,
+    "removed": 0,
+    "added_without_policy": 0,
+    "policy_changed": 3,
+    "moved_to_another_dac": 3,
+    "became_policy_less": 0,
+    "policy_less_resolved": 0,
+    "newly_released": 2,
+    "newly_deprecated": 0
+  }
+}

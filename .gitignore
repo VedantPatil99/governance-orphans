@@ -1,0 +1,6 @@
+__pycache__/
+.pytest_cache/
+*.pyc
+05_Data_and_Results/raw_snapshots_PRIVATE/
+raw_ega_snapshot*/
+

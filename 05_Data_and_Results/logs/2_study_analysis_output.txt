@@ -1,0 +1,420 @@
+{
+  "validation": {
+    "precision_own_text_matches": {
+      "k": 39,
+      "n": 39,
+      "p": 1.0,
+      "ci95": [
+        0.9097,
+        1.0
+      ]
+    },
+    "random_unmatched_sample_miss_rate": {
+      "k": 0,
+      "n": 150,
+      "p": 0.0,
+      "ci95": [
+        0.0,
+        0.0243
+      ]
+    },
+    "unmatched_population": 4641,
+    "missed_DACs_upper_bound_95": 113,
+    "independent_domain_check": {
+      "consortium_domain_DACs": 26,
+      "caught_by_matcher": 26,
+      "domains": [
+        "icgc.org (24)",
+        "icgc-argo.org (1)",
+        "h3africa.org (1)"
+      ]
+    },
+    "note": "Labels judged from DAC title, description and own policy titles. Membership that a record never states is unobservable to both matcher and labeller -- this is the identifiability gap itself."
+  },
+  "headline": {
+    "ega_dacs": 4885,
+    "dacs_governing_data": {
+      "k": 3750,
+      "n": 4885,
+      "p": 0.7677,
+      "ci95": [
+        0.7556,
+        0.7793
+      ]
+    },
+    "empty_dacs": {
+      "k": 1135,
+      "n": 4885,
+      "p": 0.2323,
+      "ci95": [
+        0.2207,
+        0.2444
+      ]
+    },
+    "self_identify_roster_consortium": {
+      "k": 35,
+      "n": 4885,
+      "p": 0.0072,
+      "ci95": [
+        0.0052,
+        0.0099
+      ]
+    },
+    "single_named_individual_among_released_governing": {
+      "k": 1244,
+      "n": 3239,
+      "p": 0.3841,
+      "ci95": [
+        0.3675,
+        0.4009
+      ]
+    },
+    "no_or_dead_contact_among_governing": {
+      "k": 23,
+      "n": 3750,
+      "p": 0.0061,
+      "ci95": [
+        0.0041,
+        0.0092
+      ]
+    },
+    "controlled_datasets_without_policy": {
+      "k": 473,
+      "n": 21764,
+      "p": 0.0217,
+      "ci95": [
+        0.0199,
+        0.0238
+      ]
+    },
+    "o5_released_live": {
+      "datasets": 109,
+      "samples": 45705
+    },
+    "o5_no_public_path_released": {
+      "datasets": 0,
+      "samples": 0
+    },
+    "test_like_dacs": 97,
+    "test_like_dacs_with_released_data": 2
+  },
+  "record_age": {
+    "table": {
+      "0 Legacy": {
+        "dacs": 22,
+        "defect": 19,
+        "single_person": 0,
+        "datasets": 3613,
+        "defect_rate": 0.8636,
+        "single_person_rate": 0.0
+      },
+      "1 EGAC1-000": {
+        "dacs": 654,
+        "defect": 18,
+        "single_person": 276,
+        "datasets": 7093,
+        "defect_rate": 0.0275,
+        "single_person_rate": 0.422
+      },
+      "2 EGAC1-001": {
+        "dacs": 823,
+        "defect": 7,
+        "single_person": 278,
+        "datasets": 1950,
+        "defect_rate": 0.0085,
+        "single_person_rate": 0.3378
+      },
+      "3 EGAC1-002": {
+        "dacs": 856,
+        "defect": 4,
+        "single_person": 325,
+        "datasets": 1944,
+        "defect_rate": 0.0047,
+        "single_person_rate": 0.3797
+      },
+      "4 EGAC1-003": {
+        "dacs": 545,
+        "defect": 6,
+        "single_person": 170,
+        "datasets": 5024,
+        "defect_rate": 0.011,
+        "single_person_rate": 0.3119
+      },
+      "5 EGAC5 (current system)": {
+        "dacs": 850,
+        "defect": 2,
+        "single_person": 451,
+        "datasets": 1812,
+        "defect_rate": 0.0024,
+        "single_person_rate": 0.5306
+      }
+    },
+    "hard_defect_chi2": {
+      "chi2": 1102.44,
+      "dof": 5,
+      "p": 3.963941169709563e-236,
+      "cramers_v": 0.542
+    },
+    "legacy_vs_rest_fisher": {
+      "table": [
+        [
+          19,
+          3
+        ],
+        [
+          37,
+          3691
+        ]
+      ],
+      "odds_ratio": 631.79,
+      "p": 1.0035970350032754e-33
+    },
+    "hard_defect_trend_spearman": {
+      "rho": -0.126,
+      "p": 8.976533705334154e-15
+    },
+    "single_person_chi2": {
+      "chi2": 108.74,
+      "p": 7.545415366281027e-22
+    },
+    "single_person_trend_spearman": {
+      "rho": 0.082,
+      "p": 5.739865098979139e-07
+    }
+  },
+  "sensitivity": {
+    "V0 baseline": {
+      "O1": {
+        "dacs": 4,
+        "datasets": 54,
+        "samples": 6990
+      },
+      "O2": {
+        "dacs": 28,
+        "datasets": 830,
+        "samples": 53114
+      },
+      "O3": {
+        "dacs": 47,
+        "datasets": 44,
+        "samples": 9290
+      },
+      "O4": {
+        "dacs": 59,
+        "datasets": 36,
+        "samples": 2816
+      },
+      "any_orphan_share_of_datasets": 0.0451
+    },
+    "V1 single named individual counts as O3": {
+      "O1": {
+        "dacs": 4,
+        "datasets": 54,
+        "samples": 6990
+      },
+      "O2": {
+        "dacs": 28,
+        "datasets": 830,
+        "samples": 53114
+      },
+      "O3": {
+        "dacs": 2156,
+        "datasets": 3835,
+        "samples": 585534
+      },
+      "O4": {
+        "dacs": 35,
+        "datasets": 17,
+        "samples": 439
+      },
+      "any_orphan_share_of_datasets": 0.221
+    },
+    "V2 personal webmail counts as O3": {
+      "O1": {
+        "dacs": 4,
+        "datasets": 54,
+        "samples": 6990
+      },
+      "O2": {
+        "dacs": 28,
+        "datasets": 830,
+        "samples": 53114
+      },
+      "O3": {
+        "dacs": 135,
+        "datasets": 125,
+        "samples": 14862
+      },
+      "O4": {
+        "dacs": 57,
+        "datasets": 34,
+        "samples": 2816
+      },
+      "any_orphan_share_of_datasets": 0.0487
+    },
+    "V3 DNS timeout treated as dead": {
+      "O1": {
+        "dacs": 4,
+        "datasets": 54,
+        "samples": 6990
+      },
+      "O2": {
+        "dacs": 28,
+        "datasets": 830,
+        "samples": 53114
+      },
+      "O3": {
+        "dacs": 49,
+        "datasets": 45,
+        "samples": 9428
+      },
+      "O4": {
+        "dacs": 59,
+        "datasets": 36,
+        "samples": 2816
+      },
+      "any_orphan_share_of_datasets": 0.0451
+    },
+    "V4 exclude scan-discovered consortia": {
+      "O1": {
+        "dacs": 0,
+        "datasets": 0,
+        "samples": 0
+      },
+      "O2": {
+        "dacs": 28,
+        "datasets": 830,
+        "samples": 53114
+      },
+      "O3": {
+        "dacs": 51,
+        "datasets": 98,
+        "samples": 16280
+      },
+      "O4": {
+        "dacs": 59,
+        "datasets": 36,
+        "samples": 2816
+      },
+      "any_orphan_share_of_datasets": 0.0451
+    },
+    "V5 exclude test-like DACs": {
+      "O1": {
+        "dacs": 4,
+        "datasets": 54,
+        "samples": 6990
+      },
+      "O2": {
+        "dacs": 27,
+        "datasets": 830,
+        "samples": 53114
+      },
+      "O3": {
+        "dacs": 43,
+        "datasets": 42,
+        "samples": 9287
+      },
+      "O4": {
+        "dacs": 46,
+        "datasets": 34,
+        "samples": 2816
+      },
+      "any_orphan_share_of_datasets": 0.0449
+    }
+  },
+  "continuity": {
+    "pass_rate_each_check_governing_dacs": {
+      "C1_reachable_contact": {
+        "k": 3727,
+        "n": 3750,
+        "p": 0.9939,
+        "ci95": [
+          0.9908,
+          0.9959
+        ]
+      },
+      "C2_role_or_institutional_contact": {
+        "k": 2178,
+        "n": 3750,
+        "p": 0.5808,
+        "ci95": [
+          0.5649,
+          0.5965
+        ]
+      },
+      "C3_redundant_contacts": {
+        "k": 2010,
+        "n": 3750,
+        "p": 0.536,
+        "ci95": [
+          0.52,
+          0.5519
+        ]
+      },
+      "C4_self_description": {
+        "k": 676,
+        "n": 3750,
+        "p": 0.1803,
+        "ci95": [
+          0.1683,
+          0.1929
+        ]
+      },
+      "C5_policy_linked_datasets": {
+        "k": 3718,
+        "n": 3750,
+        "p": 0.9915,
+        "ci95": [
+          0.988,
+          0.9939
+        ]
+      },
+      "C6_live_status": {
+        "k": 3707,
+        "n": 3750,
+        "p": 0.9885,
+        "ci95": [
+          0.9846,
+          0.9915
+        ]
+      },
+      "C7_parent_body_field": {
+        "k": 0,
+        "n": 3750,
+        "p": 0.0,
+        "ci95": [
+          0.0,
+          0.001
+        ]
+      },
+      "C8_successor_field": {
+        "k": 0,
+        "n": 3750,
+        "p": 0.0,
+        "ci95": [
+          0.0,
+          0.001
+        ]
+      }
+    },
+    "pass_all_observable_checks": {
+      "k": 301,
+      "n": 3750,
+      "p": 0.0803,
+      "ci95": [
+        0.072,
+        0.0894
+      ]
+    },
+    "fail_at_least_one_observable": {
+      "k": 3449,
+      "n": 3750,
+      "p": 0.9197,
+      "ci95": [
+        0.9106,
+        0.928
+      ]
+    },
+    "note": "C7/C8 fail for every record because the EGA DAC schema has no field for a parent body or successor."
+  }
+}

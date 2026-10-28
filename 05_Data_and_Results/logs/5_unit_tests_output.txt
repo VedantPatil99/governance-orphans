@@ -1,0 +1,48 @@
+============================= test session starts =============================
+platform win32 -- Python 3.14.3, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\Vedan\AppData\Local\Python\pythoncore-3.14-64\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Vedan\Documents\College\Data Privacy\CaseStudy\06_Code
+configfile: pytest.ini
+testpaths: tests
+plugins: anyio-4.15.1, platformdirs-4.12.3
+collecting ... collected 37 items
+
+tests/test_orphanscan.py::TestMatching::test_whole_word_only PASSED      [  2%]
+tests/test_orphanscan.py::TestMatching::test_specific_consortium_beats_generic_archive PASSED [  5%]
+tests/test_orphanscan.py::TestMatching::test_longer_overlapping_name_wins PASSED [  8%]
+tests/test_orphanscan.py::TestMatching::test_acronyms_are_case_sensitive PASSED [ 10%]
+tests/test_orphanscan.py::TestMatching::test_email_addresses_are_not_membership PASSED [ 13%]
+tests/test_orphanscan.py::TestMatching::test_thousands_separator_is_not_a_keyword_split PASSED [ 16%]
+tests/test_orphanscan.py::TestMatching::test_dac_text_beats_policy_text PASSED [ 18%]
+tests/test_orphanscan.py::TestMatching::test_policy_only_hit_is_recorded_as_policy_source PASSED [ 21%]
+tests/test_orphanscan.py::TestClassification::test_ended_without_successor_is_o1 PASSED [ 24%]
+tests/test_orphanscan.py::TestClassification::test_ended_with_successor_is_o2 PASSED [ 27%]
+tests/test_orphanscan.py::TestClassification::test_past_driver_project_is_o2b PASSED [ 29%]
+tests/test_orphanscan.py::TestClassification::test_policy_only_affiliation_is_not_orphaned PASSED [ 32%]
+tests/test_orphanscan.py::TestClassification::test_generic_archive_mention_is_not_a_consortium PASSED [ 35%]
+tests/test_orphanscan.py::TestClassification::test_lifecycle_label_takes_precedence_over_contact PASSED [ 37%]
+tests/test_orphanscan.py::TestClassification::test_observable_axis_applies_to_unmatched_dacs PASSED [ 40%]
+tests/test_orphanscan.py::TestContacts::test_no_contact_is_o3_unless_url_works PASSED [ 43%]
+tests/test_orphanscan.py::TestContacts::test_all_domains_dead_is_o3 PASSED [ 45%]
+tests/test_orphanscan.py::TestContacts::test_one_live_domain_is_enough PASSED [ 48%]
+tests/test_orphanscan.py::TestContacts::test_dns_timeout_is_not_counted_as_dead PASSED [ 51%]
+tests/test_orphanscan.py::TestContacts::test_personal_webmail PASSED     [ 54%]
+tests/test_orphanscan.py::TestContacts::test_single_named_person_vs_role_mailbox PASSED [ 56%]
+tests/test_orphanscan.py::TestContacts::test_contact_domains_are_lowercased_and_cleaned PASSED [ 59%]
+tests/test_orphanscan.py::TestPrivacy::test_redact_removes_every_address PASSED [ 62%]
+tests/test_orphanscan.py::TestPrivacy::test_redact_leaves_non_text_alone PASSED [ 64%]
+tests/test_orphanscan.py::TestPrivacy::test_dac_table_never_stores_addresses PASSED [ 67%]
+tests/test_orphanscan.py::TestGovernanceJoin::test_dataset_policy_dac_join_and_o5 PASSED [ 70%]
+tests/test_orphanscan.py::TestGovernanceJoin::test_secondary_route_credits_the_recovered_dac PASSED [ 72%]
+tests/test_orphanscan.py::TestGovernanceJoin::test_non_ega_stub_is_not_a_contact_orphan PASSED [ 75%]
+tests/test_orphanscan.py::TestGovernanceJoin::test_deprecated_when_every_dataset_is_deprecated PASSED [ 78%]
+tests/test_orphanscan.py::test_test_record_detection[Placeholder DAC-True] PASSED [ 81%]
+tests/test_orphanscan.py::test_test_record_detection[Dummy DAC-True] PASSED [ 83%]
+tests/test_orphanscan.py::test_test_record_detection[Obsolete DAC - Do Not Use-True] PASSED [ 86%]
+tests/test_orphanscan.py::test_test_record_detection[test dac 4-True] PASSED [ 89%]
+tests/test_orphanscan.py::test_test_record_detection[Evaluation of commercial Guardant360 ctDNA test in prostate cancer-False] PASSED [ 91%]
+tests/test_orphanscan.py::test_test_record_detection[Testis tumour sequencing DAC-False] PASSED [ 94%]
+tests/test_orphanscan.py::test_policy_orphan_subtypes PASSED             [ 97%]
+tests/test_orphanscan.py::test_compare_snapshots_detects_governance_change PASSED [100%]
+
+============================= 37 passed in 1.10s ==============================

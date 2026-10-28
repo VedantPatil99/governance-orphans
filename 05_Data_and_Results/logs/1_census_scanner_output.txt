@@ -1,0 +1,94 @@
+Fetching all DACs...
+  [dacs] loaded 4901 records from C:\Users\Vedan\Documents\College\Data Privacy\CaseStudy\05_Data_and_Results\raw_snapshots_PRIVATE\raw_ega_snapshot\dacs.json (retrieved 2026-10-07)
+Retrieval date: 2026-10-07
+Done. Total DACs: 4901
+
+Fetching all policies...
+  [policies] loaded 4880 records from C:\Users\Vedan\Documents\College\Data Privacy\CaseStudy\05_Data_and_Results\raw_snapshots_PRIVATE\raw_ega_snapshot\policies.json (retrieved 2026-10-07)
+Done. Total policies: 4880
+Fetching all datasets (this is usually the biggest endpoint)...
+  [datasets] loaded 21764 records from C:\Users\Vedan\Documents\College\Data Privacy\CaseStudy\05_Data_and_Results\raw_snapshots_PRIVATE\raw_ega_snapshot\datasets.json (retrieved 2026-10-07)
+Done. Total datasets: 21764
+Policies with a DAC link: 4880 / 4880
+Datasets with no resolvable DAC (via policy link): 473 / 21764
+
+  [o5] loaded secondary-route DAC resolution for 473 datasets from C:\Users\Vedan\Documents\College\Data Privacy\CaseStudy\05_Data_and_Results\raw_snapshots_PRIVATE\raw_ega_snapshot\policy_orphan_dacs.json
+  malformed dataset accessions among O5: 5
+O5 policy orphans: 473 datasets, 46293 samples (released: 109, deprecated: 58, controlled: 473)
+  released and not deprecated (requestable with no committee on record): 109 datasets, 45705 samples
+  O5 subtype (all | released & not deprecated):
+                             datasets  samples  live_datasets  live_samples
+o5_subtype                                                                 
+no_public_path                    328      245              0             0
+recoverable_secondary_route       145    46048            109         45705
+
+Loaded frozen contact checks from C:\Users\Vedan\Documents\College\Data Privacy\CaseStudy\05_Data_and_Results\raw_snapshots_PRIVATE\raw_ega_snapshot\contact_checks.json (checked 2026-10-08T12:30:48+00:00): 12 URLs, 1234 domains
+  live: 1204, dead: 27, unknown/timeout: 3
+
+Matched to a known consortium: 244 / 4901 (via DAC text: 110, via policy text: 134)
+
+Sanity check — ICGC / ICGC ARGO: 34 DACs, 960 datasets
+         accession_id                                                                             title  dataset_count     contact_status                         consortium_name                orphan_type
+40    EGAC00001000010                                                ICGC Data Access Compliance Office            807      institutional  International Cancer Genome Consortium              O2_succession
+941   EGAC00001000912                                                UHN Genomics Data Access Committee            117      institutional  International Cancer Genome Consortium  no_orphan_signal_detected
+634   EGAC00001000605                                                                         ICGC DACO             19      institutional  International Cancer Genome Consortium              O2_succession
+669   EGAC00001000640                             DAC for NKTL study. National Cancer Centre Singapore.              8      institutional  International Cancer Genome Consortium  no_orphan_signal_detected
+884   EGAC00001000855                                                                         ICGC DACO              3      institutional  International Cancer Genome Consortium              O2_succession
+1768  EGAC00001001740                                                        MyBrCa Tumour Genomics DAC              2      institutional  International Cancer Genome Consortium  no_orphan_signal_detected
+1941  EGAC00001001914                                                              DAC Panel Evaluation              1      institutional  International Cancer Genome Consortium  no_orphan_signal_detected
+446   EGAC00001000417  Pending DAC re-assignment; to be transferred to final controlling entity "soon".              1      institutional  International Cancer Genome Consortium  no_orphan_signal_detected
+373   EGAC00001000344                                                                               DAC              1  single_individual  International Cancer Genome Consortium  no_orphan_signal_detected
+648   EGAC00001000619                                                                         ICGC DACO              1      institutional  International Cancer Genome Consortium              O2_succession
+45    EGAC00001000015                                                ICGC Data Access Compliance Office              0      institutional  International Cancer Genome Consortium              O2_succession
+636   EGAC00001000607                                                                         ICGC DACO              0      institutional  International Cancer Genome Consortium              O2_succession
+
+Sanity check — ClinGen: 0 DACs, 0 datasets
+
+Sanity check — CSER: 0 DACs, 0 datasets
+
+Sanity check — 1000 Genomes: 0 DACs, 0 datasets
+
+Retrieval date: 2026-10-07
+Total DACs scanned: 4901  (released: 3289, governing >=1 dataset: 3750)
+Datasets attributed to a DAC: 21436 / 21764
+
+URL status breakdown:
+url_status
+no_url       4889
+reachable      11
+broken          1
+
+Contact status breakdown:
+contact_status
+institutional              2634
+single_individual          2111
+freemail_only                88
+no_contact                   38
+external_reference_stub      16
+domain_unresolvable          14
+
+Lifecycle class:
+lifecycle_class
+unmatched                       4657
+affiliated_institutional_DAC     134
+archive_generic_DAC               71
+O2_succession                     28
+active_consortium                  5
+O1_dissolution                     4
+O2b_delisted_from_GA4GH            2
+
+O3 contact-orphan flags: 52   O4 infrastructure-orphan flags: 60
+
+Primary orphan type (DACs | datasets | samples):
+                           dacs  datasets  samples
+orphan_type                                       
+O1_dissolution                4        54     6990
+O2_succession                28       830    53114
+O2b_delisted_from_GA4GH       2         2      267
+O3_contact_orphan            47        44     9290
+O4_infrastructure_orphan     59        36     2816
+no_orphan_signal_detected  4761     20470  3485972
+
+Match rate against the 37-row roster: 244 / 4901 (5.0%)
+
+Wrote governance_decay_scan_results.csv, policy_orphan_datasets.csv -> C:\Users\Vedan\Documents\College\Data Privacy\CaseStudy\05_Data_and_Results\results; charts -> C:\Users\Vedan\Documents\College\Data Privacy\CaseStudy\04_Figures

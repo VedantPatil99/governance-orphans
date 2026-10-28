@@ -1,0 +1,7 @@
+,O1_dacs,O1_datasets,O2_dacs,O2_datasets,O3_dacs,O3_datasets,O4_dacs,O4_datasets,any_orphan_share_of_datasets
+V0 baseline,4.0,54.0,28.0,830.0,47.0,44.0,59.0,36.0,0.0451
+V1 single named individual counts as O3,4.0,54.0,28.0,830.0,2156.0,3835.0,35.0,17.0,0.221
+V2 personal webmail counts as O3,4.0,54.0,28.0,830.0,135.0,125.0,57.0,34.0,0.0487
+V3 DNS timeout treated as dead,4.0,54.0,28.0,830.0,49.0,45.0,59.0,36.0,0.0451
+V4 exclude scan-discovered consortia,0.0,0.0,28.0,830.0,51.0,98.0,59.0,36.0,0.0451
+V5 exclude test-like DACs,4.0,54.0,27.0,830.0,43.0,42.0,46.0,34.0,0.0449

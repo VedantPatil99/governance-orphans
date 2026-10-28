@@ -1,0 +1,38 @@
+consortium_name,match_keywords,status,end_date,successor,verification_note,roster_source
+All of Us Research Program,"All of Us,AoU",active,,,Listed as active GA4GH Driver Project (ga4gh.org/our-community/driver-projects),ga4gh
+Autism Sharing Initiative,"Autism Sharing Initiative,Autism Sharing",past_driver_project,,,Listed as active GA4GH Driver Project; 2019 cohort | 2026-10-07: GA4GH page now lists this under 'Past Driver Projects' (checked against raw page HTML).,ga4gh
+Biomedical Research Hub,"Biomedical Research Hub,BRH",active,,,Listed as active GA4GH Driver Project; 2023 cohort,ga4gh
+Clinical Genome Resource,"ClinGen,Clinical Genome Resource",active,,,Listed as active GA4GH Driver Project,ga4gh
+ELIXIR Beacon,ELIXIR Beacon,active,,,Listed as active GA4GH Driver Project,ga4gh
+ELIXIR Cloud and AAI,ELIXIR Cloud,active,,,Listed as active GA4GH Driver Project,ga4gh
+EpiShare,EpiShare,past_driver_project,,,Listed as active GA4GH Driver Project; 2019 cohort | 2026-10-07: GA4GH page now lists this under 'Past Driver Projects' (checked against raw page HTML).,ga4gh
+European Genome-phenome Archive,"EGA,European Genome-phenome Archive,European Genome phenome Archive",active,,,Listed as active GA4GH Driver Project; hosts this study's own data source,ga4gh
+European Genomic Data Infrastructure,"GDI,European Genomic Data Infrastructure",active,,,Listed as active GA4GH Driver Project; 2023 cohort,ga4gh
+European Joint Programme on Rare Disease,"EJP RD,European Joint Programme on Rare Disease,European Joint Programme on Rare Diseases",active,,,Listed as active GA4GH Driver Project; 2019 cohort,ga4gh
+Genomics England,"Genomics England,100000 Genomes,100,000 Genomes",active,,,Listed as active GA4GH Driver Project,ga4gh
+Human Cell Atlas,"Human Cell Atlas,HCA",active,,,Listed as active GA4GH Driver Project,ga4gh
+H3Africa,"H3Africa,Human Heredity and Health in Africa",active,,,Listed as active GA4GH Driver Project; 2019 cohort,ga4gh
+Human Pangenome Project,"Human Pangenome,HPP",active,,,Listed as active GA4GH Driver Project; 2023 cohort,ga4gh
+ICGC ARGO,"ARGO,ICGC ARGO",active,,,Listed as active GA4GH Driver Project; successor to legacy ICGC,ga4gh
+Immunotherapy Centers of Research Excellence,imCORE,active,,,Listed as active GA4GH Driver Project; 2023 cohort,ga4gh
+International Precision Child Health Partnership,"IPCHiP,International Precision Child Health",active,,,Listed as active GA4GH Driver Project; 2023 cohort,ga4gh
+Matchmaker Exchange,Matchmaker Exchange,active,,,Listed as active GA4GH Driver Project,ga4gh
+Monarch Initiative,Monarch Initiative,active,,,Listed as active GA4GH Driver Project,ga4gh
+NCI Genomic Data Commons,"NCI CRDC,Cancer Research Data Commons,Genomic Data Commons,GDC",active,,,Listed as active GA4GH Driver Project (current name: NCI CRDC),ga4gh
+NHLBI BioData Catalyst,"BioData Catalyst,BDC",active,,,Listed as active GA4GH Driver Project; 2023 cohort,ga4gh
+NIH Cloud Platform Interoperability,"NCPI,Cloud Platform Interoperability",active,,,Listed as active GA4GH Driver Project; 2023 cohort,ga4gh
+Pan-Canadian Genome Library,"PCGL,Pan-Canadian Genome Library",active,,,Listed as active GA4GH Driver Project,ga4gh
+Qatar Genome Program,Qatar Genome,active,,,Listed as active GA4GH Driver Project; 2023 cohort,ga4gh
+Repository of the International Fetal Genomics Consortium,"RIFGC,International Fetal Genomics",active,,,Listed as active GA4GH Driver Project; 2023 cohort,ga4gh
+Variant Interpretation for Cancer Consortium,"VICC,Variant Interpretation for Cancer",active,,,Listed as active GA4GH Driver Project,ga4gh
+TOPMed,"TOPMed,Trans-Omics for Precision Medicine",active,,,"Has active GA4GH driver-project page (ga4gh.org/driver_project/trans-omics-for-precision-medicine-topmed) and active NHLBI site | 2026-10-07: NOT on the current or past list of the GA4GH Driver Projects page; kept as researcher-added, flag in methods.",researcher_added
+Australian Genomics,Australian Genomics,past_driver_project,,,"GA4GH itself lists this under 'Past Driver Projects' (ga4gh.org/our-community/driver-projects) -- NOTE: the underlying organization is still active (2024-2025 grant confirmed), only its formal GA4GH Driver Project status has lapsed. Do not classify as full dissolution without further check.",ga4gh
+Canadian Distributed Infrastructure for Genomics,"CanDIG,Canadian Distributed Infrastructure for Genomics",past_driver_project,,,GA4GH itself lists this under 'Past Driver Projects' (ga4gh.org/our-community/driver-projects); end date/reason not independently confirmed -- verify further before final submission,ga4gh
+International Cancer Genome Consortium,"ICGC,International Cancer Genome",ended,2024-06,ICGC ARGO,Portal retired June 2024; ARGO documents an access gap for legacy phs000178 data (docs.icgc-argo.org/docs/data-access/icgc-25k-data),phase_a_case
+CSER Consortium,"CSER,Clinical Sequencing Evidence-Generating Research,Clinical Sequencing Exploratory Research",ended,2023-06,,NHGRI states program concluded June 2023 after 12 years; no successor named (genome.gov),phase_a_case
+1000 Genomes Project,"1000 Genomes,1000G",ended,2016-02,International Genome Sample Resource (IGSR),"Data now maintained by IGSR at EMBL-EBI; open-access, no DAC review required (internationalgenome.org)",phase_a_case
+EOSC4Cancer,EOSC4Cancer,past_driver_project,,,Added 2026-10-07: listed under 'Past Driver Projects' on ga4gh.org/our-community/driver-projects; not in the 2026-09-01 roster.,ga4gh
+GABRIEL Consortium,"Gabriel Consortium,GABRIEL",ended,2010-08,,NOT a GA4GH project -- discovered by the 2026-10-07 scan (no-contact DAC governing data via file route). CORDIS 18996: FP6 GABRIEL 2006-03-01 to 2010-08-31,scan_discovered
+Nordic Centre of Excellence Programme in Molecular Medicine,Nordic Centre of Excellence Programme in Molecular Medicine,ended,2009,,NOT a GA4GH project -- discovered by the 2026-10-07 scan (no-contact DAC governing data via file route). CORDIS news 22161: Nordic CoE in Molecular Medicine 2004-2009,scan_discovered
+MolPAGE,"MolPAGE,MOLPAGE",ended,2009-03,,NOT a GA4GH project -- discovered by the 2026-10-07 scan (no-contact DAC governing data via file route). CORDIS 512066: FP6 MOLPAGE 2004-10-01 to 2009-03-31,scan_discovered
+ENGAGE Consortium,"ENGAGE,European Network of Genomic and Genetic Epidemiology,European Network for Genetic and Genomic Epidemiology",ended,2012-12,,NOT a GA4GH project -- discovered by the 2026-10-08 scan via the direct dataset->DAC route (contactless DAC EGAC00000000008 governing the Northern Finland Birth Cohort 1966 dataset). CORDIS 201413: FP7 ENGAGE 2008-01-01 to 2012-12-31,scan_discovered

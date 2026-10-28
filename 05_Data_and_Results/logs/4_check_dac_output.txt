@@ -1,0 +1,48 @@
+
+EGAC00000000008 — European Network of Genomic and Genetic Epidemiology Data Access Committee
+  source:      census C:\Users\Vedan\Documents\College\Data Privacy\CaseStudy\05_Data_and_Results\results\governance_decay_scan_results.csv
+  governs:     1 datasets (1 released), 5,844 samples
+  consortium:  ENGAGE Consortium (ended) — matched in dac text
+  contact:     no_contact; domains: — (—)
+  orphan type: O1_dissolution — its consortium has ended with no successor
+  continuity:  1/6 observable checks passed
+    [FAIL] C1 Reachable contact               → publish at least one contact on a working institutional domain
+    [FAIL] C2 Role / institutional contact    → add a role mailbox (e.g. dac@institution) that outlives any one person
+    [FAIL] C3 Two or more contacts            → list a second named member so the committee survives one person leaving
+    [FAIL] C4 Describes itself                → describe what the committee governs and which body it acts for
+    [FAIL] C5 Datasets linked via policy      → link every dataset to the committee through a policy record
+    [PASS] C6 Live, non-test record           
+    [FAIL] C7 Names parent body (no field)    → record the parent consortium or institution (needs a new schema field)
+    [FAIL] C8 Names successor (no field)      → record a successor committee for when the parent body ends (needs a new schema field)
+
+EGAC00000000014 — Gabriel Consortium Data Access Committee
+  source:      census C:\Users\Vedan\Documents\College\Data Privacy\CaseStudy\05_Data_and_Results\results\governance_decay_scan_results.csv
+  governs:     41 datasets (30 released), 965 samples
+  consortium:  GABRIEL Consortium (ended) — matched in dac text
+  contact:     no_contact; domains: — (—)
+  orphan type: O1_dissolution — its consortium has ended with no successor
+  continuity:  1/6 observable checks passed
+    [FAIL] C1 Reachable contact               → publish at least one contact on a working institutional domain
+    [FAIL] C2 Role / institutional contact    → add a role mailbox (e.g. dac@institution) that outlives any one person
+    [FAIL] C3 Two or more contacts            → list a second named member so the committee survives one person leaving
+    [FAIL] C4 Describes itself                → describe what the committee governs and which body it acts for
+    [FAIL] C5 Datasets linked via policy      → link every dataset to the committee through a policy record
+    [PASS] C6 Live, non-test record           
+    [FAIL] C7 Names parent body (no field)    → record the parent consortium or institution (needs a new schema field)
+    [FAIL] C8 Names successor (no field)      → record a successor committee for when the parent body ends (needs a new schema field)
+
+EGAC00001000010 — ICGC Data Access Compliance Office
+  source:      census C:\Users\Vedan\Documents\College\Data Privacy\CaseStudy\05_Data_and_Results\results\governance_decay_scan_results.csv
+  governs:     807 datasets (516 released), 52,926 samples
+  consortium:  International Cancer Genome Consortium (ended, successor ICGC ARGO) — matched in dac text
+  contact:     institutional; domains: icgc-argo.org (live)
+  orphan type: O2_succession — its consortium has ended; a successor exists but the record was not handed over
+  continuity:  5/6 observable checks passed
+    [PASS] C1 Reachable contact               
+    [PASS] C2 Role / institutional contact    
+    [FAIL] C3 Two or more contacts            → list a second named member so the committee survives one person leaving
+    [PASS] C4 Describes itself                
+    [PASS] C5 Datasets linked via policy      
+    [PASS] C6 Live, non-test record           
+    [FAIL] C7 Names parent body (no field)    → record the parent consortium or institution (needs a new schema field)
+    [FAIL] C8 Names successor (no field)      → record a successor committee for when the parent body ends (needs a new schema field)
